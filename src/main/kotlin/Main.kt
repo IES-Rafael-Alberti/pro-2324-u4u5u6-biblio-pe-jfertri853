@@ -13,5 +13,9 @@ fun main() {
     gestor.registrarPrestamo("0987G")
     gestor.registrarPrestamo("0987G")
     gestor.devolverLibro("0987G")
+    gestor.registrarPrestamo("2468F")
+
+    println()
+    gestor.mostrarLibros()
 
 }
